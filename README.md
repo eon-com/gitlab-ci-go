@@ -1,11 +1,12 @@
 # gitlab-ci-go
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?color=blue)](https://opensource.org/licenses/MIT)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/EON-COM/gitlab-ci-go.svg?color=blue)
+[![](https://images.microbadger.com/badges/image/eoncom/gitlab-ci-go.svg)](https://microbadger.com/images/eoncom/gitlab-ci-go "Get your own image badge on microbadger.com")
 
 # Supported tags and respective `Dockerfile` links
 
-[`gitlab-ci-go:0.1` `gitlab-ci-go:latest` (*Dockerfile*)](https://github.com/EON-COM/gitlab-ci-go/blob/master/go/Dockerfile)
-
+[`gitlab-ci-go:0.1` `gitlab-ci-go:latest` (*Dockerfile*)](https://github.com/EON-COM/gitlab-ci-go/blob/master/Dockerfile)
 
 # Quick reference
 
@@ -26,11 +27,7 @@
 
 # What is gitlab-ci-go?
 
-Docker image used in the github-ci pipeline,.
-
-## Go docker CI  image
-
-> This is the image that the internal gitlab-ci uses to build a go service. 
+This is the image that the internal gitlab-ci uses to build a go service. 
 
 ### Tools installed inside the image
 - go-1.11
