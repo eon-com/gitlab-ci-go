@@ -6,7 +6,8 @@
 
 # Supported tags and respective `Dockerfile` links
 
-[`gitlab-ci-go:0.1` `gitlab-ci-go:latest` (*Dockerfile*)](https://github.com/EON-COM/gitlab-ci-go/blob/master/Dockerfile)
+[`gitlab-ci-go:0.4` `gitlab-ci-go:latest` (*Dockerfile*)](https://github.com/EON-COM/gitlab-ci-go/blob/master/Dockerfile)
+
 
 # Quick reference
 
