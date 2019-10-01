@@ -6,7 +6,7 @@
 
 # Supported tags and respective `Dockerfile` links
 
-[`gitlab-ci-go:0.4` `gitlab-ci-go:latest` (*Dockerfile*)](https://github.com/EON-COM/gitlab-ci-go/blob/master/Dockerfile)
+[`gitlab-ci-go:0.5` `gitlab-ci-go:latest` (*Dockerfile*)](https://github.com/EON-COM/gitlab-ci-go/blob/master/Dockerfile)
 
 
 # Quick reference
@@ -31,7 +31,7 @@
 This is the image that the internal gitlab-ci uses to build a go service. 
 
 ### Tools installed inside the image
-- go-1.11
+- go-1.13
 - curl
 - git
 - bash

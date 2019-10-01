@@ -1,6 +1,6 @@
-FROM golang:1.11-alpine
+FROM golang:1.13-alpine
 LABEL maintainer="Salvatore <salvatore-elio.giulitti@eon-romania.ro>" \
-    version="0.3" \
+    version="0.5" \
     purpose=ci
 RUN apk update && apk upgrade --no-cache && apk add --no-cache \
     curl    \
