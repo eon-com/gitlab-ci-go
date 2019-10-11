@@ -10,4 +10,4 @@ RUN apk update && apk upgrade --no-cache && apk add --no-cache \
     libc-dev
 RUN apk add go --update-cache --repository http://nl.alpinelinux.org/alpine/edge/community
 RUN curl -sL https://taskfile.dev/install.sh | sh -s v2.5.0
-RUN curl -sfL https://install.goreleaser.com/github.com/golangci/golangci-lint.sh | sh -s v1.17.1
+RUN curl -sfL https://install.goreleaser.com/github.com/golangci/golangci-lint.sh | sh -s v1.20.0
