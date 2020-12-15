@@ -1,7 +1,5 @@
 FROM golang:1.13-alpine
-LABEL maintainer="Salvatore <salvatore-elio.giulitti@eon-romania.ro>" \
-    version="0.7" \
-    purpose=ci
+LABEL maintainer="Johannes Bruederl <johannes.bruederl@eon.com>" version="0.8"
 RUN apk update && apk upgrade --no-cache && apk add --no-cache \
     curl    \
     git     \
